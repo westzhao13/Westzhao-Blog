@@ -38,3 +38,5 @@ paginate: 5
 # Sass
 sass:
     style: :compressed
+
+theme: jekyll-theme-minimal
