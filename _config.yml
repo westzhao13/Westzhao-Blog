@@ -1,9 +1,9 @@
 title: West Zhao
 description: My Personal Blog
 author: West Zhao
-logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /Westzhao-Blog/static/img/avatar.png
 github: https://github.com/codeasashu
-about: Freelance developer
+about: Linux & ARM & Android
 
 baseurl: "https://westzhao13.github.io/Westzhao-Blog"
 url: "https://westzhao13.github.io/Westzhao-Blog"
