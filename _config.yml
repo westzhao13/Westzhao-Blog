@@ -40,7 +40,7 @@ urls:
       url: /feed.xml
 
 url: "https://westzhao13.github.io/Westzhao-Blog"
-baseurl: ""
+baseurl: "https://westzhao13.github.io/Westzhao-Blog"
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
