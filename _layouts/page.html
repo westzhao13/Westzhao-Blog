@@ -1,11 +1,19 @@
----
-layout: default
----
-<div class="well">
-    {% if page.subtitle %}
-    <h4 class="home-subtitle">{{ page.subtitle }}</h4>
-    {% endif %}
-    <div>
-    	{{ content }}
-    </div>
+--- 
+layout: default 
+--- 
+<!-- Navi -->
+<div class="post_frame">
+  <div class="post_navi">
+    <a href="/">首页</a>&nbsp;>&nbsp;
+    <span class="post_navi_span">{{ page.title }}</span>
+  </div>
+  
+  <div style="padding:10px">
+    {{ content }}
+  </div>
+
+  <!-- Blog Comments -->
+  <div class="media">
+    {% include comment.html %} 
+  </div>
 </div>
