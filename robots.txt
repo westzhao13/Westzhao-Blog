@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /BLOGSYS/
-Disallow: /blogsys/
-Sitemap: https://westzhao13.github.io/Westzhao-Blog/index.html

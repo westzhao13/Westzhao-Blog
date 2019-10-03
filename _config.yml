@@ -1,46 +1,28 @@
+title: West Zhao
+description: My Personal Blog
+author: West Zhao
+logo: /Westzhao-Blog/static/img/avatar.png
+github: https://github.com/westzhao13
+about: Linux & ARM & Android
+
+baseurl: "https://westzhao13.github.io/Westzhao-Blog"
+url: "https://westzhao13.github.io/Westzhao-Blog"
+
+allowsearch: true
+
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:title.html 
-
-#摘要分隔符，书写博文时使用
-excerpt_separator: "<!-- more -->"
-
-#站点信息，需要修改成自己的!!!
-github: westzhao13
-author: "westzhao"
-email: westzhao13#hotmail.com
-name: "Westzhao's Blog"
-baseurl: /
-url: https://westzhao13.github.io/Westzhao-Blog/
-domain: westzhao13.github.io/Westzhao-Blog/
-
-#栏目配置，请根据博客需要，参照着自行规划!!!
-#每个栏目包含三个信息：
-#1.栏目标签（英文），每篇文章通过category字段指定
-#2.栏目名称，为栏目标签对应的栏目名
-#3.栏目列表链接，一般为”/栏目标签/index.html“即可
-all_categories: [
-  ["linux", "Linux开发","/linux/index.html"], 
-  ["rtos", "实时操作系统", "/rtos/index.html"],
-  ["c", "C语言","/c/index.html"], 
-  ["iot", "iot相关","/iot/index.html"],
-  ["other", "杂记","/other/index.html"],
-  ["read", "书摘","/read/index.html"], 
-  ["about", "关于","/about.html"]
-]
-
-#分页配置
-paginate: 10 
-paginate_path: "index_:num"
-
-index_layout: "index.html"
-category_layout: "_layouts/category.html"
-tag_layout: "_layouts/tag.html"
-
-#不使用gems库中的jekyll-paginate-category
-#使用基于jekyll-paginate改写的的栏目分页插件，所以jekyll-paginate还需要用上。
-#gems: [jekyll-paginate,jekyll-paginate-category]
-plugins: [jekyll-paginate]
-
-copyright: []
-#timezone: Asia/Shanghai
+gems: [jekyll-paginate, jekyll-gist]
